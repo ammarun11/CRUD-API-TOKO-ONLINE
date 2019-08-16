@@ -1,0 +1,19 @@
+{
+    "name": "simple-user-docker",
+    "version": "1.0.0",
+    "main": "app.js",
+    "dependencies": {
+        "dotenv": "^8.0.0",
+        "express": "^4.16.4",
+        "lodash": "^4.17.15",
+        "moment": "^2.24.0",
+        "mongoose": "^5.6.9"
+    },
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js"
+    },
+    "devDependencies": {
+        "nodemon": "^1.19.1"
+    }
+}
